@@ -1,35 +1,31 @@
 
-### Erklärung der Formatierung
+### Erklärung der Abschnitte:
 
-1. **Überschriften**: 
-   - Die Überschriften wie `## Requirements`, `## Installation Steps` usw. werden durch `##` vor dem Text erstellt. Du kannst auch `###` für Unterüberschriften verwenden, um die Struktur klarer zu gestalten. Standardmäßig wird die Überschrift fetter und größer angezeigt.
+1. **Überschrift**: Der Titel des Tools ist "ZoneGrabber", und die kurze Erklärung wird direkt unter dem Titel geliefert.
    
-2. **Code-Blöcke**:
-   - Code wird durch Einfügen von **Triple Backticks** (```) vor und nach dem Codeblock formatiert.
-     - Einzeilige Code-Snippets wie `git clone` oder `pip install` werden in einfache Backticks eingeschlossen: `` `git clone ...` ``.
-     - Mehrzeilige Code-Snippets (z.B. der ganze `git clone`-Befehl oder Python-Code) werden mit Triple Backticks formatiert:
-       ```bash
-       git clone https://github.com/yourusername/yourrepository.git
-       ```
+2. **Requirements (Anforderungen)**: Hier wird klar aufgeführt, was der Benutzer installieren muss (Python 3, Git und dnspython), bevor er das Tool nutzen kann.
 
-3. **Fettgedruckter Text**:
-   - Um Text fett zu machen, verwendest du doppelte Sternchen: `**Text**`. Zum Beispiel: `**Use it responsibly**`.
+3. **Installation Steps (Schritt-für-Schritt Anleitung)**:
+   - `git clone https://github.com/Alex-bltr/ZoneGrab.git` Befehl zum Klonen des Repositories.
+   - Pip-Befehl zur Installation der erforderlichen Python-Bibliothek.
+   - Erklärung, wie man das Skript ausführt und die Eingabeaufforderungen verwendet.
 
-4. **Absätze und Trennlinien**:
-   - Absätze werden durch Leerzeilen zwischen den Texten erzeugt.
-   - Eine horizontale Trennlinie kann mit drei Bindestrichen (`---`) erstellt werden.
+4. **Wichtige Hinweise**: Es wird darauf hingewiesen, dass das Tool nur mit ausdrücklicher Genehmigung verwendet werden darf und dass der Entwickler keine Verantwortung für Missbrauch übernimmt.
 
-### Wie man es im `README.md` hinzufügt:
+5. **Disclaimer**: Eine wichtige rechtliche Erklärung, dass das Tool nur für autorisierte Tests verwendet werden darf und dass unbefugte Nutzung illegal sein könnte.
 
-- Öffne die Datei `README.md` in deinem Repository (wenn du sie noch nicht hast, erstelle eine).
-- Kopiere den oben genannten Inhalt und füge ihn an der gewünschten Stelle in der Datei ein.
-- Speichere die Datei und pushe sie zu deinem GitHub-Repository.
+---
 
-Wenn du die `README.md` Datei auf GitHub anzeigst, wird der Code in den **Code-Blöcken** schön formatiert und leicht kopierbar sein.
+### Wie man es hinzufügt:
+
+1. **Erstelle eine `README.md` Datei** (falls du noch keine hast) in deinem Repository.
+2. **Kopiere den oben stehenden Inhalt** und füge ihn in deine `README.md`-Datei ein.
+3. **Speichere und pushe die Datei** zu deinem GitHub-Repository.
 
 ### Ergebnis
 
-Wenn jemand dein Repository auf GitHub öffnet, wird die `README.md` schön formatiert angezeigt und enthält klar strukturierte Abschnitte, die es dem Benutzer leicht machen, die nötigen Schritte zu verstehen und den Code zu kopieren.
+Sobald du das `README.md` in dein Repository eingefügt hast, wird es auf GitHub mit ordentlicher Formatierung und einer klaren Schritt-für-Schritt-Anleitung angezeigt. Das macht es für andere Benutzer einfach, das Tool zu installieren und zu verwenden.
+
 
 
 
