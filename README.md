@@ -1,93 +1,35 @@
-# ZoneGrab
- _    _      _                            _        
-| |  | |    | |                          | |       
-| |  | | ___| | ___ ___  _ __ ___   ___  | |_ ___  
-| |/\| |/ _ \ |/ __/ _ \| '_ ` _ \ / _ \ | __/ _ \ 
-\  /\  /  __/ | (_| (_) | | | | | |  __/ | || (_) |
- \/  \/ \___|_|\___\___/|_| |_| |_|\___|  \__\___/ 
-                                                   
-                                                   
- ______                 _____           _          
-|___  /                |  __ \         | |         
-   / /  ___  _ __   ___| |  \/_ __ __ _| |__       
-  / /  / _ \| '_ \ / _ \ | __| '__/ _` | '_ \      
-./ /__| (_) | | | |  __/ |_\ \ | | (_| | |_) |     
-\_____/\___/|_| |_|\___|\____/_|  \__,_|_.__/      
-                                                   
 
+### Erklärung der Formatierung
 
-                                                  
-This tool allows you to retrieve and download a domain's zone file. Any use without explicit permission is prohibited! Unauthorized access to zone files is illegal.
+1. **Überschriften**: 
+   - Die Überschriften wie `## Requirements`, `## Installation Steps` usw. werden durch `##` vor dem Text erstellt. Du kannst auch `###` für Unterüberschriften verwenden, um die Struktur klarer zu gestalten. Standardmäßig wird die Überschrift fetter und größer angezeigt.
+   
+2. **Code-Blöcke**:
+   - Code wird durch Einfügen von **Triple Backticks** (```) vor und nach dem Codeblock formatiert.
+     - Einzeilige Code-Snippets wie `git clone` oder `pip install` werden in einfache Backticks eingeschlossen: `` `git clone ...` ``.
+     - Mehrzeilige Code-Snippets (z.B. der ganze `git clone`-Befehl oder Python-Code) werden mit Triple Backticks formatiert:
+       ```bash
+       git clone https://github.com/yourusername/yourrepository.git
+       ```
 
+3. **Fettgedruckter Text**:
+   - Um Text fett zu machen, verwendest du doppelte Sternchen: `**Text**`. Zum Beispiel: `**Use it responsibly**`.
 
-Requirements
-To use this tool, you will need:
+4. **Absätze und Trennlinien**:
+   - Absätze werden durch Leerzeilen zwischen den Texten erzeugt.
+   - Eine horizontale Trennlinie kann mit drei Bindestrichen (`---`) erstellt werden.
 
-Python 3 installed on your system. You can download it from here.
+### Wie man es im `README.md` hinzufügt:
 
-The dnspython library to interact with DNS records. You can install it using pip:
+- Öffne die Datei `README.md` in deinem Repository (wenn du sie noch nicht hast, erstelle eine).
+- Kopiere den oben genannten Inhalt und füge ihn an der gewünschten Stelle in der Datei ein.
+- Speichere die Datei und pushe sie zu deinem GitHub-Repository.
 
-bash
-Kopieren
-Bearbeiten
-pip install dnspython
-Git installed to clone the repository. You can download it from here.
+Wenn du die `README.md` Datei auf GitHub anzeigst, wird der Code in den **Code-Blöcken** schön formatiert und leicht kopierbar sein.
 
-Access to a domain's zone file, and permission to access it, as this tool performs DNS zone transfers. Unauthorized access is prohibited.
+### Ergebnis
 
-Quick Step-by-Step Guide
-Install Python:
+Wenn jemand dein Repository auf GitHub öffnet, wird die `README.md` schön formatiert angezeigt und enthält klar strukturierte Abschnitte, die es dem Benutzer leicht machen, die nötigen Schritte zu verstehen und den Code zu kopieren.
 
-If you don’t have Python installed, download and install Python 3 from the official site.
-
-Install Git:
-
-If you don’t have Git installed, download and install it from here.
-
-Clone the Repository:
-
-Open your terminal (or command prompt), and use the following command to clone your GitHub repository:
-
-bash
-Kopieren
-Bearbeiten
-git clone https://github.com/yourusername/yourrepository.git
-Replace yourusername/yourrepository with your actual GitHub username and repository name.
-
-Navigate to the Repository Folder:
-
-After cloning, navigate to the directory where the repository was saved:
-
-bash
-Kopieren
-Bearbeiten
-cd yourrepository
-Install Required Library:
-
-Run the following command to install the necessary library:
-
-bash
-Kopieren
-Bearbeiten
-pip install dnspython
-Run the Script:
-
-Run the script with Python 3:
-
-bash
-Kopieren
-Bearbeiten
-python3 your_script_name.py
-Provide the Domain Name:
-
-When prompted, enter the domain name you wish to query.
-
-Enter File Name:
-
-Enter a name for the output file where the zone information will be saved (e.g., output_zone_file.txt).
-
-Review the Output:
-
-The zone file information will be saved in the file you specified, and you can open it with any text editor.
 
 
