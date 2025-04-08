@@ -11,9 +11,10 @@ This tool retrieves zone files of domains. Only use on authorized domains.
 
 Install dependencies:
 
-```bash
+``` python 
 pip install dnspython
-/n
+
+``` bash
 git clone https://github.com/dein-username/zgrab.git
 
 
