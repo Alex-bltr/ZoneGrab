@@ -32,6 +32,7 @@ cd zgrab
 
 ```bash
 python3 zgrab.py
+```
 
 
 
