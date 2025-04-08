@@ -13,9 +13,8 @@ Install dependencies:
 
 ```bash
 pip install dnspython
-
-
-Sobald du das `README.md` in dein Repository eingefügt hast, wird es auf GitHub mit ordentlicher Formatierung und einer klaren Schritt-für-Schritt-Anleitung angezeigt. Das macht es für andere Benutzer einfach, das Tool zu installieren und zu verwenden.
+/n
+git clone https://github.com/dein-username/zgrab.git
 
 
 
